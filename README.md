@@ -1,5 +1,5 @@
 # refactoring
-Starting program with test setup for Fowler's [Refactoring](https://martinfowler.com/books/refactoring.html). 
+Starting program with test setup for Fowler's [Refactoring](https://martinfowler.com/books/refactoring.html).
 
 This repo provides you with the starting code for the example program from Chapter 1 of the book. It also provides an intial basic test using [Mocha](https://mochajs.org/). It is advised to follow the refactorings in the book by making changes to `src` files in this repo and adding appropriate tests.
 
@@ -14,6 +14,11 @@ npm install
 1. Open console.
 1. Execute `npm test` in console.
 1. Mocha tests will run and display test results in console.
+
+## To run tests in watch mode
+1. Open console.
+1. Execute `npm run watch` in console.
+1. Mocha tests will run and display test results in console, and will restart whenver source code changes.
 
 ## To monitor program
 1. Open console.
