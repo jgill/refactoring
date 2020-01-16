@@ -4,10 +4,11 @@
   "description": "Starting program for first example refactoring",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --require @babel/register",
+    "test": "mocha --require @babel/register",
     "start": "nodemon --exec babel-node ./src/index.js",
     "build": "babel src --out-dir ./dist --source-maps",
-    "debug": "node --inspect-brk ./dist/index.js"
+    "debug": "node --inspect-brk ./dist/index.js",
+    "watch": "mocha --require @babel/register --watch"
   },
   "keywords": [],
   "author": "",

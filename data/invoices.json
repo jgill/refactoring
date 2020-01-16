@@ -15,5 +15,23 @@
         "audience": 40
       }
     ]
+  },
+  {
+    "customer": "ComedyCo",
+    "performances": [
+      {
+        "playID": "as-like",
+        "audience": 57
+      }
+    ]
+  },
+  {
+    "customer": "TragiCo",
+    "performances": [
+      {
+        "playID": "hamlet",
+        "audience": 13
+      }
+    ]
   }
 ]
